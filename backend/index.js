@@ -20,7 +20,7 @@ app.use(cookieParser())  //This will allow you to read and manage cookies from t
 
 
 const corsOption = {
-    origin: 'http://localhost:5173',
+    origin: 'https://hirewave-frontend.onrender.com',
     credentials: true
   };
 app.use(cors(corsOption)) //Cross-Origin Resource Sharing for maintaining security
