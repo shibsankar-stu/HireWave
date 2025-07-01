@@ -72,8 +72,8 @@ const JobDescription = ({ job }) => {
           </div>
 
           <div className="flex items-center justify-between mt-1 text-4xl text-gray-500">
-            <div className="mt-2 text-2xl text-indigo-500">
-              {jobDescription.position}
+            <div className="mt-2 text-2xl">
+             position: {jobDescription.position}
             </div>
 
             <span className="text-green-600 font-medium text-2xl">
@@ -81,7 +81,7 @@ const JobDescription = ({ job }) => {
             </span>
           </div>
           <div className="mt-2 text-xl">
-            Experience: {jobDescription.experienceLevel} Years
+            Experience: {jobDescription.experience} Years
           </div>
 
           {/* About */}
