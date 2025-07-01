@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./shares/Navbar";
 
-import Job from "./job";
+import Job from "./Job";
 import FilterComponent from "./Filter";
 
 

@@ -7,7 +7,7 @@ const CompanyTable = () => {
   const [ companies, setCompanies ] = useState([]);
 const fetchCompanies = async () => {
   try {
-    const res = await axios.get('http://localhost:8000/api/v1/company/get', { withCredentials: true });
+    const res = await axios.get('https://hirewave-backend.onrender.com/api/v1/company/get', { withCredentials: true });
     setCompanies(res.data.companies);
     console.log('Companies:', res.data.companies);
   } catch (error) {
